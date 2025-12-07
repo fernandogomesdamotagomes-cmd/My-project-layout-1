@@ -79,8 +79,8 @@ body {
 }
 
 .remember-forget {
-  margin: -10px 0px 20px;
-  display: flex;
+  margin: -15px 0 15px;
+  position: relative;
   justify-content: space-between;
 }
 
@@ -112,15 +112,8 @@ button {
   border-radius: 30px;
   color: #fff;
   font-size: 25px;
-  /* animation: bordaAnimada 3s linear infinite; */
+
 }
-/* 
-@keyframes bordaAnimada{
-  0%   { background: #ff0000; }
-  33%  {background: #ffc400; }
-  66%  {background: #0000ff; }
-  100% { background: #ff0000; }
-} */
 
 button:hover {
   background: #fd000065;
@@ -128,7 +121,6 @@ button:hover {
 }
 
 .register-link {
-  text-align: center;
   margin: 25px 0px -2px;
   p a {
     margin-left: 10px;
@@ -143,8 +135,10 @@ button:hover {
   color: #ff6161;
 }
 .register-link p {
-  margin: 0px 0px 0px -220px;
+ margin: 0% 2%;
+ position: relative;
 }
+
 
 
 
