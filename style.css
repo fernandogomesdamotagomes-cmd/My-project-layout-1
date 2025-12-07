@@ -39,7 +39,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  .container {
+   .container {
     width: 90%;
     height: auto;
   }
@@ -146,6 +146,7 @@ button:hover {
  margin: 0% 2%;
  position: relative;
 }
+
 
 
 
