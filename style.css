@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 * {
-margin: 0 auto;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
@@ -15,6 +15,7 @@ body {
   background-position: center;
   background-size: center;
   position: relative;
+  z-index: -3;
 }
 
 #bg-video {
@@ -142,4 +143,5 @@ button:hover {
 .register-link p {
   margin: 0px 0px 0px -220px;
 }
+
 
