@@ -87,9 +87,9 @@ body {
 }
 
 .remember-forget {
-  margin: -15px 0 15px;
+  display: flex;
   position: relative;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .remember-forget label input {
@@ -146,6 +146,7 @@ button:hover {
  margin: 0% 2%;
  position: relative;
 }
+
 
 
 
